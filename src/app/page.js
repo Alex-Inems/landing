@@ -1,5 +1,5 @@
 // src/app/page.js
-import LandingForm from "@/components/LandingForm";
+import LandingForm from "@/app/components/LandingForm";
 
 export default function Home() {
   return (

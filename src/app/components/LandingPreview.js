@@ -7,7 +7,7 @@ const LandingPreview = ({ landingData }) => {
   }
 
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 my-6">
+    <div className="bg-white text-black shadow-lg rounded-lg p-6 my-6">
       <h1 className="text-3xl font-bold text-center mb-4">{landingData.title}</h1>
       <p className="text-lg text-gray-600 text-center">{landingData.subtitle}</p>
       
