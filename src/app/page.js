@@ -1,17 +1,10 @@
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+// src/app/page.js
+import LandingForm from "@/components/LandingForm";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-      <Hero />
-      <Features />
-      <CTA />
-      <Footer />
+    <main className="p-6">
+      <LandingForm />
     </main>
   );
 }
